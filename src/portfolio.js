@@ -20,26 +20,27 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Ricardo Landim",
+  title: "Hi all, I'm Ricardo",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a physicist and data scientist with 10+ years' experience in theoretical/mathematical modeling, problem solving, programming, data analysis and advanced statistical methods, applied to the areas of cosmology, astrophysics, particle physics, medical physics, neuroscience and radio astronomy. Have working experience in five different countries (United Kingdom, Germany, United States, Portugal and Brazil)."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+//  resumeLink:
+  //  " ", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ricardoclandim",
+  linkedin: "https://www.linkedin.com/in/ricardo-landim/",
+  gmail: "ricardoclandim@gmail.com",
+  scholar: "https://scholar.google.com/citations?user=4GymsfIAAAAJ&hl=en",
+//  gitlab: "https://gitlab.com/saadpasta",
+//  facebook: "https://www.facebook.com/saad.pasta7",
+//  medium: "https://medium.com/@saadpasta",
+//  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  //subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "● Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("● Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "● Integration of third party services such as Firebase/ AWS / Digital Ocean"
     )
   ],
 
@@ -115,6 +116,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+      {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-google-scholar"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -125,25 +130,37 @@ https://fontawesome.com/icons?d=gallery */
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+     {
+      schoolName: "University of Sao Paulo",
+      logo: require("./assets/images/usp.png"),
+      subHeader: "PhD in Physics",
+      duration: "March 2013 - February 2017",
+      desc: "Developed research in Cosmology and published 8 papers. Second place for the  Brazilian Physical Society Thesis Award 2016/2017",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed theoretical models in cosmology and astrophysics.",
+        "Awarded the most prestigious Brazilian scholarship (FAPESP), granted to top 3% of all STEM students.",
+        "Teaching assistant for 4 graduate and undergraduate courses."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
+      schoolName: "University of Campinas",
+      logo: require("./assets/images/unicamp.png"),
+      subHeader: "Master of Science in Physics",
+      duration: "August 2011 - March 2013",
+      desc: "Developed research in neuroscience and published 3 papers.",
+      descBullets: [
+        "Used magnetic resonance spectroscopy to investigate variation of different substances in the human brain under visual stimulation. Analysis  made through Matlab.",
+        "Awarded the most prestigious Brazilian scholarship (FAPESP), granted to top 3% of all STEM students.",
+        "Teaching assistant for 1 undergraduate course."
+      ]
+    },
+    {
+      schoolName: "Sao Paulo State University",
+      logo: require("./assets/images/unesp.png"),
+      subHeader: "Bachelor of Science & Licenciate in Physics ",
+      duration: "February 2004 - December 2008",
+      desc: "Licentiate is a Brazilian degree to teach physics in elementary and high schools.",
+          }
   ]
 };
 
@@ -174,29 +191,59 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Research Fellow",
+      company: "Univ. of Portsmouth",
+      companylogo: require("./assets/images/u-port.png"),
+      date: "November 2022 – Present",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Uses large data sets and advanced statistical analysis (Monte Carlo sampling and Bayesian) to test cosmological models, producing the state-of-the-art analysis and constraints for a class of models.",
+        "Wrote a Python code to analyse galaxy velocities, representing data through graphics and extracting information through advanced statistical methods."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Postdoc Researcher",
+      company: "Tech. Univ. of Munich",
+      companylogo: require("./assets/images/tum.png"),
+      date: "May 2019 – October 2022",
+      desc: "Awarded the most prestigious fellowship in Germany  for top international young researchers by the Alexander von Humboldt Foundation.",
+      descBullets: [
+        "Developed theoretical models in particle physics to explain the neutrino masses.",
+        "Used big experimental data sets to constrain cosmological models, coded in C and Python.",
+        "Led project and  group of 10 scientists to forecast capabilities of the BINGO radio telescope to detect the astrophysical phenomenon fast radio bursts,  conducting weekly meetings for the BINGO collaboration, with small (~ 10) and large (> 30) group of scientists and students (Apr. 2020 -- Dec. 2022)."
+      ]
+    },
+     {
+      role: "Postdoc Researcher",
+      company: "SLAC Laboratory",
+      companylogo: require("./assets/images/slac.webp"),
+      date: "June 2018 – January 2019",
+      desc: "Used models from theoretical physics to build a solution for unexplained issues in experimental data.",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Postdoc Visitor",
+      company: "University of Porto",
+      companylogo: require("./assets/images/porto.jpg"),
+      date: "October 2017 – February 2018",
+      desc: "Used astrophysical data to obtain the most stringent constraint on one physical principle.",
+    },
+    {
+      role: "Postdoc Researcher",
+      company: "Univ. of Sao Paulo",
+      companylogo: require("./assets/images/usp.jpg"),
+      date: "March 2017 – May 2018",
+      desc: "Developed models and used dynamical analysis theory to solve issues in the field of theoretical physics applied to cosmology/astronomy, especially related to dark energy.",
+    },
+    {
+      role: "Coordinator",
+      company: "Museum of Energy",
+      companylogo: require("./assets/images/museu.jpg"),
+      date: "April 2009 – March 2011",
+      desc: "The science museum provided  guided visits for university, elementary and high school students, exhibiting the  hydroelectric plant, machinery, and educational physics experiments.",
+     descBullets: [
+        "Designed and built didactic experiments. Developed material (and taught) for a course  on Fundamentals of Physics.",
+        "Performed several administrative activities and organized events and conferences for the local community."
+      ]
     }
   ]
 };
@@ -239,64 +286,31 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Awards And Certifications"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "IBM Data Science Specialization",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "",
+      image: require("./assets/images/ibm.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.coursera.org/account/accomplishments/specialization/4L3VDTYQDUPM"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+      
+        
       ]
     }
   ],
@@ -306,22 +320,28 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "Media",
+  //subtitle:
+//    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://phys.org/news/2024-02-bingo-radio-telescope-brightest-energy.html",
+      title: "BINGO radio telescope will be able to detect and locate the brightest bursts of energy, says study",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Published at phys.org. Monthly Visitors: 14,667,377 (United Kingdom)"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.port.ac.uk/news-events-and-blogs/news/radio-telescope-will-detect-and-locate-the-brightest-bursts-of-energy",
+      title: "Radio telescope will detect and locate the brightest bursts of energy",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Material publised at Uni Portsmouth website."
+    },
+     {
+      url: "https://www.satelliteevolution.com/post/radio-telescope-will-detect-and-locate-the-brightest-bursts-of-energy",
+      title: "Radio telescope will detect and locate the brightest bursts of energy",
+      description:
+        "Republised at Satellite Evolution Asia (United Kingdom)."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -331,16 +351,16 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+ subtitle: emoji(
+    "20+ seminars/talks at international conferences or universities. Here is one example:"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Constraints on Dark Energy",
+      subtitle: "Talk at COSMO 23",
+      slides_url: "https://drive.google.com/file/d/1xqOue5DKLWvuIZqHzoDFlr-OAhdg87dN/view?usp=sharing",
+      event_url: "https://workshops.ift.uam-csic.es/COSMO23"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -356,7 +376,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,7 +385,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -373,17 +393,18 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "ricardoclandim@gmail.com",
+  display: true
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

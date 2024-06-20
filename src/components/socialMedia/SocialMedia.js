@@ -43,6 +43,18 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+      
+      {socialMediaLinks.scholar ? (
+        <a
+          href={socialMediaLinks.scholar}
+          className="icon-button scholar"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-tiktok"></i>
+          <span></span>
+        </a>
+      ) : null}
 
       {socialMediaLinks.gitlab ? (
         <a

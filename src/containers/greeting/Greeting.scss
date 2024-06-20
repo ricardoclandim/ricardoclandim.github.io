@@ -38,13 +38,13 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 60px;
   line-height: 1.1;
   color: $textColor !important;
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
 }
 
@@ -100,12 +100,12 @@
   }
   .greeting-text {
     font-size: 30px;
-    text-align: center;
+    text-align: justify;
   }
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
-    text-align: center;
+    text-align: justify;
   }
   .greeting-main {
     display: block;
