@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c36c985b.css",
-    "main.js": "/static/js/main.0adebb05.js",
+    "main.js": "/static/js/main.1d7c9197.js",
     "static/css/487.bb36206c.chunk.css": "/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/static/css/990.c6a7ee28.chunk.css",
@@ -20,12 +20,11 @@
     "static/media/unicamp.png": "/static/media/unicamp.6b5c1e35333ab18f3595.png",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
-    "static/media/saayaHealthLogo.webp": "/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
-    "static/media/nextuLogo.webp": "/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/index.html",
+    "static/media/google-scholar.svg": "/static/media/google-scholar.2da686e9631c8c3ee9cd59aba75d640d.svg",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.c36c985b.css.map": "/static/css/main.c36c985b.css.map",
-    "main.0adebb05.js.map": "/static/js/main.0adebb05.js.map",
+    "main.1d7c9197.js.map": "/static/js/main.1d7c9197.js.map",
     "487.bb36206c.chunk.css.map": "/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/static/css/990.c6a7ee28.chunk.css.map",
@@ -33,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.c36c985b.css",
-    "static/js/main.0adebb05.js"
+    "static/js/main.1d7c9197.js"
   ]
 }
