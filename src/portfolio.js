@@ -298,7 +298,7 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Talks",
  subtitle: emoji(
     "20+ seminars/talks at international conferences or universities. Here is one example:"
   ),
