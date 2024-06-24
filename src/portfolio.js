@@ -63,6 +63,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+     {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
     }
    
   ],
@@ -119,15 +123,15 @@ const techStack = {
     },
     {
       Stack: "Mathematical modeling",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Programming & Data analysis",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming & Data analysis",
-      progressPercentage: "60%"
-    },
-    {
-      Stack: "Programming & Data analysis",
-      progressPercentage: "60%"
+      Stack: "Problem solving & Analytical thinking, ",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,7 +189,7 @@ const workExperiences = {
     {
       role: "Coordinator",
       company: "Museum of Energy",
-      companylogo: require("./assets/images/museu.jpg"),
+      companylogo: require("./assets/images/museu.jpeg"),
       date: "April 2009 – March 2011",
       desc: "The science museum provided  guided visits for university, elementary and high school students, exhibiting the  hydroelectric plant, machinery, and educational physics experiments.",
      descBullets: [
