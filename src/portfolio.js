@@ -35,8 +35,8 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/ricardoclandim",
   linkedin: "https://www.linkedin.com/in/ricardo-landim/",
-  gmail: "ricardoclandim@gmail.com",
-  scholar: "https://scholar.google.com/citations?user=4GymsfIAAAAJ&hl=en",
+  gmail: "ricardo.landim@port.ac.uk",
+ // scholar: "https://scholar.google.com/citations?user=4GymsfIAAAAJ&hl=en",
 //  gitlab: "https://gitlab.com/saadpasta",
 //  facebook: "https://www.facebook.com/saad.pasta7",
 //  medium: "https://medium.com/@saadpasta",
@@ -130,7 +130,7 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Problem solving & Analytical thinking, ",
+      Stack: "Problem solving & Analytical thinking",
       progressPercentage: "80%"
     }
   ],
@@ -211,34 +211,43 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Publications",
+  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bingo.png"),
+      projectName: "BINGO radio telescope",
+      projectDesc: "First paper of a series of 9 showing forecasts for the BINGO radio telescope",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Check here",
+          url: "https://doi.org/10.1051/0004-6361/202140883"
+        }
+      ]},
+      {
+      image: require("./assets/images/mrs.png"),
+      projectName: "Investigation of NAA and NAAG dynamics underlying visual stimulation",
+      projectDesc: "Result of Master's thesis showing variation of two substances in the human brain. ",
+      footerLink: [
+        {
+          name: "Check here",
+          url: "https://doi.org/10.1016/j.mri.2015.10.038"
+        }
+      ]},
+    {
+      image: require("./assets/images/scholar.png"),
+      projectName: "Google scholar",
+      projectDesc: "38 published scientific articles",
+      footerLink: [
+        {
+          name: "Check here all my papers!",
+          url: "https://scholar.google.com/citations?user=4GymsfIAAAAJ&hl=en"
         }
         //  you can add extra buttons here.
       ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -275,7 +284,7 @@ const blogSection = {
   title: "Media",
   //subtitle:
 //    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://phys.org/news/2024-02-bingo-radio-telescope-brightest-energy.html",
@@ -298,6 +307,7 @@ const blogSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Talks Sections
 
