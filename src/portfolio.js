@@ -53,8 +53,15 @@ const skillsSection = {
   //subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
-      "● Use Mathematical modeling, Statistics and Problem solving skills to deal with large datasets")
+      "● Use mathematical modeling, statistics and problem solving skills to deal with large datasets")
+  	,
+    emoji(
+      "● Design and implement mathematical models to explain dark energy and dark matter"),
+ 
+    emoji(
+      "● Forecast capabilities of datasets 5 years into the future, helping optimize the strategy of upcoming million dollar astronomical surveys")
   	],
+  	
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -67,6 +74,10 @@ https://fontawesome.com/icons?d=gallery */
      {
       skillName: "linux",
       fontAwesomeClassname: "fab fa-linux"
+    },
+    {
+      skillName: "ubuntu",
+      fontAwesomeClassname: "fab fa-ubuntu"
     }
    
   ],
