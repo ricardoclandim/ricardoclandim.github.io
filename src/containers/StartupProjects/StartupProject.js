@@ -48,6 +48,7 @@ export default function StartupProject() {
                       <img
                         src={project.image}
                         alt={project.projectName}
+                        width="200%"
                         className="card-image"
                       ></img>
                     </div>

@@ -132,6 +132,10 @@ const techStack = {
     {
       Stack: "Problem solving & Analytical thinking",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Team management",
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -215,7 +219,7 @@ const bigProjects = {
   //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/bingo.png"),
+      image: require("./assets/images/BINGOsite_artistic.jpg"),
       projectName: "BINGO radio telescope",
       projectDesc: "First paper of a series of 9 showing forecasts for the BINGO radio telescope",
       footerLink: [
@@ -225,7 +229,7 @@ const bigProjects = {
         }
       ]},
       {
-      image: require("./assets/images/mrs.png"),
+      image: require("./assets/images/mrs.jpg"),
       projectName: "Investigation of NAA and NAAG dynamics underlying visual stimulation",
       projectDesc: "Result of Master's thesis showing variation of two substances in the human brain. ",
       footerLink: [
