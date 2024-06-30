@@ -231,12 +231,22 @@ const openSource = {
 
 const bigProjects = {
   title: "Publications",
-  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some publications using data science skills",
   projects: [
+    {
+      image: require("./assets/images/nirvana.png"),
+      projectName: "Testing screened modified gravity with SDSS-IV-MaNGA",
+      projectDesc: "Used large dataset to obtain state-of-art constraints on a theoretical model in cosmology",
+      footerLink: [
+        {
+          name: "Coming soon",
+          url: "https://arxiv.org/search/?searchtype=author&query=Landim%2C+R+G"
+        }
+      ]},
     {
       image: require("./assets/images/BINGOsite_artistic.jpg"),
       projectName: "BINGO radio telescope",
-      projectDesc: "First paper of a series of 9 showing forecasts for the BINGO radio telescope",
+      projectDesc: "First paper of a series showing forecasts for the BINGO radio telescope",
       footerLink: [
         {
           name: "Check here",
