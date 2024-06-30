@@ -78,6 +78,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "ubuntu",
       fontAwesomeClassname: "fab fa-ubuntu"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
     }
    
   ],
@@ -276,8 +280,8 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "IBM Data Science Specialization",
-      subtitle:
-        "",
+    //  subtitle:
+    //    "",
       image: require("./assets/images/ibm.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
