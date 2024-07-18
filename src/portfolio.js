@@ -176,7 +176,7 @@ const workExperiences = {
       date: "November 2022 – Present",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Uses large data sets and advanced statistical analysis (Monte Carlo sampling and Bayesian) to test cosmological models, producing the state-of-the-art analysis and constraints for a class of models.",
+        "Uses large data sets and advanced statistical analysis (Monte Carlo sampling and Bayesian) to test cosmological models, producing state-of-the-art analysis and constraints.",
         "Wrote a Python code to analyse galaxy velocities, representing data through graphics and extracting information through advanced statistical methods."
       ]
     },
