@@ -120,7 +120,8 @@ const educationInfo = {
       duration: "August 2011 - March 2013",
       desc: "Developed research in neuroscience and published 3 papers.",
       descBullets: [
-        "Used magnetic resonance spectroscopy to investigate variation of different substances in the human brain under visual stimulation. Analysis  made through Matlab.",
+        "Analysed data from human brain spectrum to investigate variation of metabolites in the brain.",
+        "Developed Matlab code to extract information from those spectra and used statistics to interpret those data through graphics.",
         "Awarded the most prestigious Brazilian scholarship (FAPESP), granted to top 3% of all STEM students.",
         "Teaching assistant for 1 undergraduate course."
       ]
@@ -176,8 +177,8 @@ const workExperiences = {
       date: "November 2022 – Present",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Uses large data sets and advanced statistical analysis (Monte Carlo sampling and Bayesian) to test cosmological models, producing state-of-the-art analysis and constraints.",
-        "Wrote a Python code to analyse galaxy velocities, representing data through graphics and extracting information through advanced statistical methods."
+        "Upgraded the open-source code in Python NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub). ",
+        "Wrote a Python code via Jupyter Notebook  to analyse the outputs from NIRVANA,  using advanced statistical analysis (Monte Carlo sampling and Bayesian) and representing data through graphics."
       ]
     },
     {
@@ -187,9 +188,9 @@ const workExperiences = {
       date: "May 2019 – October 2022",
       desc: "Awarded the most prestigious fellowship in Germany  for top international young researchers by the Alexander von Humboldt Foundation.",
       descBullets: [
-        "Developed theoretical models in particle physics to explain the neutrino masses.",
-        "Used big experimental data sets to constrain cosmological models, coded in C and Python.",
-        "Led project and  group of 10 scientists to forecast capabilities of the BINGO radio telescope to detect the astrophysical phenomenon fast radio bursts,  conducting weekly meetings for the BINGO collaboration, with small (~ 10) and large (> 30) group of scientists and students (Apr. 2020 -- Dec. 2022)."
+        "Upgraded the most used open-source code in cosmology (written in C, available on GitHub)  to solve non-linear differential equations.",
+        "Used large data sets to extract information of  cosmological models.",
+        "Led project and  group of 10 scientists to forecast capabilities of datasets of the BINGO telescope 5 years into the future, helping optimize the strategy of upcoming million dollar astronomical survey.   Conducted weekly meetings for the BINGO collaboration, with small (~ 10) and large (> 30) group of scientists and students (Apr. 2020 -- Dec. 2022).  "
       ]
     },
      {
@@ -238,8 +239,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Publications",
-  subtitle: "Some publications using data science skills",
+  title: "Projects",
+  subtitle: "Some projects using data science skills",
   projects: [
     {
       image: require("./assets/images/nirvana.png"),
@@ -247,8 +248,8 @@ const bigProjects = {
       projectDesc: "Used large dataset to obtain state-of-art constraints on a theoretical model in cosmology",
       footerLink: [
         {
-          name: "Coming soon",
-          url: "https://arxiv.org/search/?searchtype=author&query=Landim%2C+R+G"
+          name: "Check here",
+          url: "https://arxiv.org/abs/2407.08825"
         }
       ]},
     {
