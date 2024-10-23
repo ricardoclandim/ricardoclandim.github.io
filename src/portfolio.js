@@ -22,8 +22,9 @@ const illustration = {
 const greeting = {
   username: "Ricardo Landim",
   title: "Hi all, I'm Ricardo",
-  subTitle: emoji(
-    "I'm a physicist and data scientist with 10+ years' experience in theoretical/mathematical modeling, problem solving, programming, data analysis and advanced statistical methods, applied to the areas of cosmology, astrophysics, particle physics, medical physics, neuroscience and radio astronomy. Have working experience in five different countries (United Kingdom, Germany, United States, Portugal and Brazil)."
+  subTitle: //emoji//
+  (
+    "I'm a physicist and software engineer with 10+ years' experience in theoretical/mathematical modeling, problem solving, programming, data analysis and advanced statistical methods, applied to the areas of cosmology, astrophysics, particle physics, medical physics, neuroscience and radio astronomy. Have working experience in five different countries (United Kingdom, Germany, United States, Portugal and Brazil)."
   ),
 //  resumeLink:
   //  " ", // Set to empty to hide the button
@@ -56,10 +57,10 @@ const skillsSection = {
       "● Use mathematical modeling, statistics and problem solving skills to deal with large datasets")
   	,
     emoji(
-      "● Design and implement mathematical models to explain dark energy and dark matter"),
+      "● Design and implement mathematical models in cosmology and astrophysics"),
  
     emoji(
-      "● Forecast capabilities of datasets 5 years into the future, helping optimize the strategy of upcoming million dollar astronomical surveys")
+      "● Develop and maintain pipelines in support of projects in space missions.")
   	],
   	
 
@@ -171,10 +172,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Research Software Engineer",
+      company: "Univ. of Portsmouth",
+      companylogo: require("./assets/images/u-port.png"),
+      date: "September 2024 – Present",
+      //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Developing and maintaining software in Python in support of projects in the institute’s research portfolio, particularly in space missions. ",
+        "Developing pipelines for the Euclid Space Telescope."
+      ]
+    },
+    {
       role: "Research Fellow",
       company: "Univ. of Portsmouth",
       companylogo: require("./assets/images/u-port.png"),
-      date: "November 2022 – Present",
+      date: "November 2022 – August 2024",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Upgraded the open-source code in Python NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub). ",
@@ -239,7 +251,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Publications",
   subtitle: "Some projects using data science skills",
   projects: [
     {
@@ -263,7 +275,7 @@ const bigProjects = {
         }
       ]},
       {
-      image: require("./assets/images/mrs.jpg"),
+      image: require("./assets/images/mrs.png"),
       projectName: "Investigation of NAA and NAAG dynamics underlying visual stimulation",
       projectDesc: "Result of Master's thesis showing variation of two substances in the human brain. ",
       footerLink: [
