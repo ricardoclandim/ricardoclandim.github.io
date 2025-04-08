@@ -109,9 +109,9 @@ const educationInfo = {
       duration: "March 2013 - February 2017",
       desc: "Developed research in Cosmology and published 8 papers. Second place for the  Brazilian Physical Society Thesis Award 2016/2017",
       descBullets: [
-        "Developed theoretical models in cosmology and astrophysics.",
-        "Awarded the most prestigious Brazilian scholarship (FAPESP), granted to top 3% of all STEM students.",
-        "Teaching assistant for 4 graduate and undergraduate courses."
+        "Developed theoretical models of dark energy and constrained them using observational cosmological data.",
+        "Served as a teaching assistant for four undergraduate and graduate-level physics courses.",
+        "Awarded Brazil’s most prestigious STEM scholarship (FAPESP), granted to the top 3% of students nationwide."
       ]
     },
     {
@@ -121,10 +121,11 @@ const educationInfo = {
       duration: "August 2011 - March 2013",
       desc: "Developed research in neuroscience and published 3 papers.",
       descBullets: [
-        "Analysed data from human brain spectrum to investigate variation of metabolites in the brain.",
-        "Developed Matlab code to extract information from those spectra and used statistics to interpret those data through graphics.",
-        "Awarded the most prestigious Brazilian scholarship (FAPESP), granted to top 3% of all STEM students.",
-        "Teaching assistant for 1 undergraduate course."
+        "Utilized magnetic resonance spectroscopy (MRS) to study variations in brain metabolites during visual stimulation.",
+        "Analyzed human brain spectral data to quantify and interpret metabolite changes.",
+        "Developed MATLAB code to process spectral data and applied statistical methods for data visualization and interpretation.",
+        "Served as a teaching assistant for the undergraduate course Medical Physics.",
+        "Awarded Brazil’s most prestigious STEM scholarship (FAPESP), granted to the top 3% of students nationwide."
       ]
     },
     {
@@ -178,9 +179,9 @@ const workExperiences = {
       date: "September 2024 – Present",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Developing and maintaining software in Python in support of projects in the institute’s research portfolio, particularly in space missions. ",
-        "Developing pipelines for the Euclid Space Telescope.",
-        "Simulated supernovae for the upcoming CASTOR Space Telescope  and investigated different telescope properties to maximize their detection."
+        "Developing and maintaining Python-based software to support research projects within the institute, with a focus on space missions. ",
+        "Contributing to the development of the data processing pipeline for the Euclid Space Telescope, enabling precise galaxy distance measurements to address fundamental questions in cosmology.",
+        "Simulating supernovae for the upcoming CASTOR Space Telescope and optimizing telescope properties to enhance detection capabilities."
       ]
     },
     {
@@ -190,8 +191,8 @@ const workExperiences = {
       date: "November 2022 – August 2024",
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Upgraded the open-source code in Python NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub). ",
-        "Wrote a Python code via Jupyter Notebook  to analyse the outputs from NIRVANA,  using advanced statistical analysis (Monte Carlo sampling and Bayesian) and representing data through graphics."
+        "Upgraded the open-source Python code NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub). ",
+        "Developed a Python-based analysis tool in Jupyter Notebook to process NIRVANA's outputs, implementing advanced statistical techniques such as Monte Carlo sampling and Bayesian analysis, and visualizing results through data-driven graphics.• Upgraded the open-source Python code NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub)."
       ]
     },
     {
@@ -202,8 +203,8 @@ const workExperiences = {
       desc: "Awarded the most prestigious fellowship in Germany  for top international young researchers by the Alexander von Humboldt Foundation.",
       descBullets: [
         "Upgraded the most used open-source code in cosmology (written in C, available on GitHub)  to solve non-linear differential equations.",
-        "Used large data sets to extract information of  cosmological models.",
-        "Led project and  group of 10 scientists to forecast capabilities of datasets of the BINGO telescope 5 years into the future, helping optimize the strategy of upcoming million dollar astronomical survey.   Conducted weekly meetings for the BINGO collaboration, with small (~ 10) and large (> 30) group of scientists and students (Apr. 2020 -- Dec. 2022).  "
+        "Analyzed large data sets to extract information of cosmological models.",
+        "Led project and team of 10 scientists to forecast capabilities of datasets of the BINGO telescope 5 years into the future, helping optimize the strategy of upcoming million dollar astronomical survey. Conducted weekly meetings for the BINGO collaboration, with small (∼ 10) and large (> 30) group of scientists and students (Apr. 2020 – Dec. 2022)"
       ]
     },
      {
@@ -211,31 +212,32 @@ const workExperiences = {
       company: "SLAC Laboratory",
       companylogo: require("./assets/images/slac.webp"),
       date: "June 2018 – January 2019",
-      desc: "Used models from theoretical physics to build a solution for unexplained issues in experimental data.",
+      desc: "Developed theoretical physics models to provide a solution for unexplained discrepancies in experimental data, bridging the gap between theory and observation.",
     },
     {
       role: "Postdoc Visitor",
       company: "University of Porto",
       companylogo: require("./assets/images/porto.jpg"),
       date: "October 2017 – February 2018",
-      desc: "Used astrophysical data to obtain the most stringent constraint on one physical principle.",
+      desc: "Utilized astrophysical data to derive the most stringent constraint on a fundamental physical principle (Weak Equivalence Principle).",
     },
     {
       role: "Postdoc Researcher",
       company: "Univ. of Sao Paulo",
       companylogo: require("./assets/images/usp.jpg"),
       date: "March 2017 – May 2018",
-      desc: "Developed models and used dynamical analysis theory to solve issues in the field of theoretical physics applied to cosmology/astronomy, especially related to dark energy.",
+      desc: "Developed mathematical models in theoretical physics, with applications in cosmology and astronomy, focusing particularly on dark energy and its implications.",
     },
     {
       role: "Coordinator",
       company: "Museum of Energy",
       companylogo: require("./assets/images/museu.jpeg"),
       date: "April 2009 – March 2011",
-      desc: "The science museum provided  guided visits for university, elementary and high school students, exhibiting the  hydroelectric plant, machinery, and educational physics experiments.",
+      desc: "The Science Museum offered guided tours for university, elementary, and high school students, showcasing the hydroelectric plant, machinery, and interactive physics experiments. ",
      descBullets: [
-        "Designed and built didactic experiments. Developed material (and taught) for a course  on Fundamentals of Physics.",
-        "Performed several administrative activities and organized events and conferences for the local community."
+        "Designed and constructed educational physics demonstrations to support science outreach. ",
+        "Developed and taught course material for a Fundamentals of Physics program. ",
+        "Coordinated administrative tasks and organized events and conferences for the local community."
       ]
     }
   ]

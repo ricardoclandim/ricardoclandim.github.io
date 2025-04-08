@@ -12,10 +12,6 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
                   </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme adapted from {" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
-          </a>
         </p>
       </div>
     </Fade>
