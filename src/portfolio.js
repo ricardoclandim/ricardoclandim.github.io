@@ -249,7 +249,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Check here",
-          url: "https://arxiv.org/abs/2407.08825"
+          url: "https://doi.org/10.1093/mnras/stae2096"
         }
       ]},
     {
