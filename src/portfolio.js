@@ -192,7 +192,7 @@ const workExperiences = {
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Upgraded the open-source Python code NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub). ",
-        "Developed a Python-based analysis tool in Jupyter Notebook to process NIRVANA's outputs, implementing advanced statistical techniques such as Monte Carlo sampling and Bayesian analysis, and visualizing results through data-driven graphics.• Upgraded the open-source Python code NIRVANA to extract velocity information from over 10,000 data of galaxies (available on GitHub)."
+        "Developed a Python-based analysis tool in Jupyter Notebook to process NIRVANA's outputs, implementing advanced statistical techniques such as Monte Carlo sampling and Bayesian analysis, and visualizing results through data-driven graphics."
       ]
     },
     {
