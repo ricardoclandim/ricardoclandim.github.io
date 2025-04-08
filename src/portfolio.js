@@ -179,7 +179,8 @@ const workExperiences = {
       //desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Developing and maintaining software in Python in support of projects in the institute’s research portfolio, particularly in space missions. ",
-        "Developing pipelines for the Euclid Space Telescope."
+        "Developing pipelines for the Euclid Space Telescope.",
+        "Simulated supernovae for the upcoming CASTOR Space Telescope  and investigated different telescope properties to maximize their detection."
       ]
     },
     {
